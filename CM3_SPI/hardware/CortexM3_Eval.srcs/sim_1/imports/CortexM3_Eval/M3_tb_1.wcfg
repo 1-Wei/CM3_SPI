@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="M3_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="M3_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="996699999999fs"></ZoomStartTime>
+      <ZoomEndTime time="997244000000fs"></ZoomEndTime>
+      <Cursor1Time time="1015100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="273"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject fp_name="/M3_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ledOut" type="array">
+      <obj_property name="ElementShortName">ledOut[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ledOut[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/EXP" type="array">
+      <obj_property name="ElementShortName">EXP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">EXP[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HADDRI" type="array">
+      <obj_property name="ElementShortName">HADDRI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HADDRI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HTRANSI" type="array">
+      <obj_property name="ElementShortName">HTRANSI[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HTRANSI[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HSIZEI" type="array">
+      <obj_property name="ElementShortName">HSIZEI[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HSIZEI[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HBURSTI" type="array">
+      <obj_property name="ElementShortName">HBURSTI[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HBURSTI[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HPROTI" type="array">
+      <obj_property name="ElementShortName">HPROTI[3:0]</obj_property>
+      <obj_property name="ObjectShortName">HPROTI[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HRDATAI" type="array">
+      <obj_property name="ElementShortName">HRDATAI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HRDATAI[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HREADYI" type="logic">
+      <obj_property name="ElementShortName">HREADYI</obj_property>
+      <obj_property name="ObjectShortName">HREADYI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HRESPI" type="array">
+      <obj_property name="ElementShortName">HRESPI[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HRESPI[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HADDRD" type="array">
+      <obj_property name="ElementShortName">HADDRD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HADDRD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HTRANSD" type="array">
+      <obj_property name="ElementShortName">HTRANSD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HTRANSD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HSIZED" type="array">
+      <obj_property name="ElementShortName">HSIZED[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HSIZED[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HBURSTD" type="array">
+      <obj_property name="ElementShortName">HBURSTD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HBURSTD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HPROTD" type="array">
+      <obj_property name="ElementShortName">HPROTD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">HPROTD[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HWDATAD" type="array">
+      <obj_property name="ElementShortName">HWDATAD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HWDATAD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HWRITED" type="logic">
+      <obj_property name="ElementShortName">HWRITED</obj_property>
+      <obj_property name="ObjectShortName">HWRITED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HREADYD" type="logic">
+      <obj_property name="ElementShortName">HREADYD</obj_property>
+      <obj_property name="ObjectShortName">HREADYD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HMASTERD" type="array">
+      <obj_property name="ElementShortName">HMASTERD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HMASTERD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/MEMATTRD" type="array">
+      <obj_property name="ElementShortName">MEMATTRD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMATTRD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HRESPD" type="array">
+      <obj_property name="ElementShortName">HRESPD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HRESPD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HADDRS" type="array">
+      <obj_property name="ElementShortName">HADDRS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HADDRS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HTRANSS" type="array">
+      <obj_property name="ElementShortName">HTRANSS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HTRANSS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HWRITES" type="logic">
+      <obj_property name="ElementShortName">HWRITES</obj_property>
+      <obj_property name="ObjectShortName">HWRITES</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HSIZES" type="array">
+      <obj_property name="ElementShortName">HSIZES[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HSIZES[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HWDATAS" type="array">
+      <obj_property name="ElementShortName">HWDATAS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HWDATAS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HBURSTS" type="array">
+      <obj_property name="ElementShortName">HBURSTS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HBURSTS[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HPROTS" type="array">
+      <obj_property name="ElementShortName">HPROTS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">HPROTS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HREADYS" type="logic">
+      <obj_property name="ElementShortName">HREADYS</obj_property>
+      <obj_property name="ObjectShortName">HREADYS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HRDATAS" type="array">
+      <obj_property name="ElementShortName">HRDATAS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HRDATAS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HRESPS" type="array">
+      <obj_property name="ElementShortName">HRESPS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HRESPS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/M3_tb/u_SOC/ulogic/HMASTERS" type="array">
+      <obj_property name="ElementShortName">HMASTERS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HMASTERS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group119" type="group">
+      <obj_property name="label">GPIO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HCLK" type="logic">
+         <obj_property name="ElementShortName">HCLK</obj_property>
+         <obj_property name="ObjectShortName">HCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HRESETn" type="logic">
+         <obj_property name="ElementShortName">HRESETn</obj_property>
+         <obj_property name="ObjectShortName">HRESETn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/FCLK" type="logic">
+         <obj_property name="ElementShortName">FCLK</obj_property>
+         <obj_property name="ObjectShortName">FCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HSEL" type="logic">
+         <obj_property name="ElementShortName">HSEL</obj_property>
+         <obj_property name="ObjectShortName">HSEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HREADY" type="logic">
+         <obj_property name="ElementShortName">HREADY</obj_property>
+         <obj_property name="ObjectShortName">HREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HTRANS" type="array">
+         <obj_property name="ElementShortName">HTRANS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HTRANS[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HSIZE" type="array">
+         <obj_property name="ElementShortName">HSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HSIZE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HWRITE" type="logic">
+         <obj_property name="ElementShortName">HWRITE</obj_property>
+         <obj_property name="ObjectShortName">HWRITE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HADDR" type="array">
+         <obj_property name="ElementShortName">HADDR[11:0]</obj_property>
+         <obj_property name="ObjectShortName">HADDR[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HWDATA" type="array">
+         <obj_property name="ElementShortName">HWDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HWDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/ECOREVNUM" type="array">
+         <obj_property name="ElementShortName">ECOREVNUM[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ECOREVNUM[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/PORTIN" type="array">
+         <obj_property name="ElementShortName">PORTIN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">PORTIN[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HREADYOUT" type="logic">
+         <obj_property name="ElementShortName">HREADYOUT</obj_property>
+         <obj_property name="ObjectShortName">HREADYOUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HRESP" type="logic">
+         <obj_property name="ElementShortName">HRESP</obj_property>
+         <obj_property name="ObjectShortName">HRESP</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/HRDATA" type="array">
+         <obj_property name="ElementShortName">HRDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HRDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/PORTOUT" type="array">
+         <obj_property name="ElementShortName">PORTOUT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">PORTOUT[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/PORTEN" type="array">
+         <obj_property name="ElementShortName">PORTEN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">PORTEN[15:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/PORTFUNC" type="array">
+         <obj_property name="ElementShortName">PORTFUNC[15:0]</obj_property>
+         <obj_property name="ObjectShortName">PORTFUNC[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/GPIOINT" type="array">
+         <obj_property name="ElementShortName">GPIOINT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">GPIOINT[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/COMBINT" type="logic">
+         <obj_property name="ElementShortName">COMBINT</obj_property>
+         <obj_property name="ObjectShortName">COMBINT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/IORDATA" type="array">
+         <obj_property name="ElementShortName">IORDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IORDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/IOSEL" type="logic">
+         <obj_property name="ElementShortName">IOSEL</obj_property>
+         <obj_property name="ObjectShortName">IOSEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/IOADDR" type="array">
+         <obj_property name="ElementShortName">IOADDR[11:0]</obj_property>
+         <obj_property name="ObjectShortName">IOADDR[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/IOWRITE" type="logic">
+         <obj_property name="ElementShortName">IOWRITE</obj_property>
+         <obj_property name="ObjectShortName">IOWRITE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/IOSIZE" type="array">
+         <obj_property name="ElementShortName">IOSIZE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">IOSIZE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/IOTRANS" type="logic">
+         <obj_property name="ElementShortName">IOTRANS</obj_property>
+         <obj_property name="ObjectShortName">IOTRANS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/IOWDATA" type="array">
+         <obj_property name="ElementShortName">IOWDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IOWDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/ALTERNATE_FUNC_MASK" type="array">
+         <obj_property name="ElementShortName">ALTERNATE_FUNC_MASK[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALTERNATE_FUNC_MASK[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/ALTERNATE_FUNC_DEFAULT" type="array">
+         <obj_property name="ElementShortName">ALTERNATE_FUNC_DEFAULT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALTERNATE_FUNC_DEFAULT[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/GPIO_test/BE" type="array">
+         <obj_property name="ElementShortName">BE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group126" type="group">
+      <obj_property name="label">APB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ST_ILLEGAL" type="array">
+         <obj_property name="ElementShortName">ST_ILLEGAL[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ST_ILLEGAL[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ST_APB_ERR2" type="array">
+         <obj_property name="ElementShortName">ST_APB_ERR2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ST_APB_ERR2[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ST_APB_ERR1" type="array">
+         <obj_property name="ElementShortName">ST_APB_ERR1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ST_APB_ERR1[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ST_APB_ENDOK" type="array">
+         <obj_property name="ElementShortName">ST_APB_ENDOK[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ST_APB_ENDOK[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ST_APB_TRNF2" type="array">
+         <obj_property name="ElementShortName">ST_APB_TRNF2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ST_APB_TRNF2[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ST_APB_TRNF" type="array">
+         <obj_property name="ElementShortName">ST_APB_TRNF[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ST_APB_TRNF[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ST_APB_WAIT" type="array">
+         <obj_property name="ElementShortName">ST_APB_WAIT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ST_APB_WAIT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ST_IDLE" type="array">
+         <obj_property name="ElementShortName">ST_IDLE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ST_IDLE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ST_BITS" type="array">
+         <obj_property name="ElementShortName">ST_BITS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ST_BITS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/REGISTER_WDATA" type="array">
+         <obj_property name="ElementShortName">REGISTER_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REGISTER_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/REGISTER_RDATA" type="array">
+         <obj_property name="ElementShortName">REGISTER_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REGISTER_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/ADDRWIDTH" type="array">
+         <obj_property name="ElementShortName">ADDRWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDRWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HADDR" type="array">
+         <obj_property name="ElementShortName">HADDR[15:0]</obj_property>
+         <obj_property name="ObjectShortName">HADDR[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HWDATA" type="array">
+         <obj_property name="ElementShortName">HWDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HWDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HWRITE" type="logic">
+         <obj_property name="ElementShortName">HWRITE</obj_property>
+         <obj_property name="ObjectShortName">HWRITE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PSLVERR" type="logic">
+         <obj_property name="ElementShortName">PSLVERR</obj_property>
+         <obj_property name="ObjectShortName">PSLVERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PREADY" type="logic">
+         <obj_property name="ElementShortName">PREADY</obj_property>
+         <obj_property name="ObjectShortName">PREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PRDATA" type="array">
+         <obj_property name="ElementShortName">PRDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/APBACTIVE" type="logic">
+         <obj_property name="ElementShortName">APBACTIVE</obj_property>
+         <obj_property name="ObjectShortName">APBACTIVE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PWDATA" type="array">
+         <obj_property name="ElementShortName">PWDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PWDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PPROT" type="array">
+         <obj_property name="ElementShortName">PPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">PPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PSEL" type="logic">
+         <obj_property name="ElementShortName">PSEL</obj_property>
+         <obj_property name="ObjectShortName">PSEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PSTRB" type="array">
+         <obj_property name="ElementShortName">PSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">PSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PWRITE" type="logic">
+         <obj_property name="ElementShortName">PWRITE</obj_property>
+         <obj_property name="ObjectShortName">PWRITE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PENABLE" type="logic">
+         <obj_property name="ElementShortName">PENABLE</obj_property>
+         <obj_property name="ObjectShortName">PENABLE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PADDR" type="array">
+         <obj_property name="ElementShortName">PADDR[15:0]</obj_property>
+         <obj_property name="ObjectShortName">PADDR[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HRESP" type="logic">
+         <obj_property name="ElementShortName">HRESP</obj_property>
+         <obj_property name="ObjectShortName">HRESP</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HRDATA" type="array">
+         <obj_property name="ElementShortName">HRDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HRDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HREADYOUT" type="logic">
+         <obj_property name="ElementShortName">HREADYOUT</obj_property>
+         <obj_property name="ObjectShortName">HREADYOUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HREADY" type="logic">
+         <obj_property name="ElementShortName">HREADY</obj_property>
+         <obj_property name="ObjectShortName">HREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HPROT" type="array">
+         <obj_property name="ElementShortName">HPROT[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HPROT[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HSIZE" type="array">
+         <obj_property name="ElementShortName">HSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HSIZE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HTRANS" type="array">
+         <obj_property name="ElementShortName">HTRANS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HTRANS[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HSEL" type="logic">
+         <obj_property name="ElementShortName">HSEL</obj_property>
+         <obj_property name="ObjectShortName">HSEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/PCLKEN" type="logic">
+         <obj_property name="ElementShortName">PCLKEN</obj_property>
+         <obj_property name="ObjectShortName">PCLKEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HRESETn" type="logic">
+         <obj_property name="ElementShortName">HRESETn</obj_property>
+         <obj_property name="ObjectShortName">HRESETn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/ApbBridge/HCLK" type="logic">
+         <obj_property name="ElementShortName">HCLK</obj_property>
+         <obj_property name="ObjectShortName">HCLK</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group208" type="group">
+      <obj_property name="label">AHB_bridge</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HCLK" type="logic">
+         <obj_property name="ElementShortName">HCLK</obj_property>
+         <obj_property name="ObjectShortName">HCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HRESETn" type="logic">
+         <obj_property name="ElementShortName">HRESETn</obj_property>
+         <obj_property name="ObjectShortName">HRESETn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HSELS" type="logic">
+         <obj_property name="ElementShortName">HSELS</obj_property>
+         <obj_property name="ObjectShortName">HSELS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HADDRS" type="array">
+         <obj_property name="ElementShortName">HADDRS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HADDRS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HTRANSS" type="array">
+         <obj_property name="ElementShortName">HTRANSS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HTRANSS[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HSIZES" type="array">
+         <obj_property name="ElementShortName">HSIZES[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HSIZES[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HWRITES" type="logic">
+         <obj_property name="ElementShortName">HWRITES</obj_property>
+         <obj_property name="ObjectShortName">HWRITES</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HREADYS" type="logic">
+         <obj_property name="ElementShortName">HREADYS</obj_property>
+         <obj_property name="ObjectShortName">HREADYS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HPROTS" type="array">
+         <obj_property name="ElementShortName">HPROTS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HPROTS[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HMASTERS" type="array">
+         <obj_property name="ElementShortName">HMASTERS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HMASTERS[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HMASTLOCKS" type="logic">
+         <obj_property name="ElementShortName">HMASTLOCKS</obj_property>
+         <obj_property name="ObjectShortName">HMASTLOCKS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HWDATAS" type="array">
+         <obj_property name="ElementShortName">HWDATAS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HWDATAS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HBURSTS" type="array">
+         <obj_property name="ElementShortName">HBURSTS[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HBURSTS[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HREADYOUTS" type="logic">
+         <obj_property name="ElementShortName">HREADYOUTS</obj_property>
+         <obj_property name="ObjectShortName">HREADYOUTS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HRESPS" type="logic">
+         <obj_property name="ElementShortName">HRESPS</obj_property>
+         <obj_property name="ObjectShortName">HRESPS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HRDATAS" type="array">
+         <obj_property name="ElementShortName">HRDATAS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HRDATAS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HADDRM" type="array">
+         <obj_property name="ElementShortName">HADDRM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HADDRM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HTRANSM" type="array">
+         <obj_property name="ElementShortName">HTRANSM[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HTRANSM[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HSIZEM" type="array">
+         <obj_property name="ElementShortName">HSIZEM[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HSIZEM[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HWRITEM" type="logic">
+         <obj_property name="ElementShortName">HWRITEM</obj_property>
+         <obj_property name="ObjectShortName">HWRITEM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HPROTM" type="array">
+         <obj_property name="ElementShortName">HPROTM[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HPROTM[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HMASTERM" type="array">
+         <obj_property name="ElementShortName">HMASTERM[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HMASTERM[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HMASTLOCKM" type="logic">
+         <obj_property name="ElementShortName">HMASTLOCKM</obj_property>
+         <obj_property name="ObjectShortName">HMASTLOCKM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HWDATAM" type="array">
+         <obj_property name="ElementShortName">HWDATAM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HWDATAM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HBURSTM" type="array">
+         <obj_property name="ElementShortName">HBURSTM[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HBURSTM[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HREADYM" type="logic">
+         <obj_property name="ElementShortName">HREADYM</obj_property>
+         <obj_property name="ObjectShortName">HREADYM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HRESPM" type="logic">
+         <obj_property name="ElementShortName">HRESPM</obj_property>
+         <obj_property name="ObjectShortName">HRESPM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/AhbBridge/HRDATAM" type="array">
+         <obj_property name="ElementShortName">HRDATAM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HRDATAM[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group276" type="group">
+      <obj_property name="label">L2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HCLK" type="logic">
+         <obj_property name="ElementShortName">HCLK</obj_property>
+         <obj_property name="ObjectShortName">HCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HRESETn" type="logic">
+         <obj_property name="ElementShortName">HRESETn</obj_property>
+         <obj_property name="ObjectShortName">HRESETn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/REMAP" type="array">
+         <obj_property name="ElementShortName">REMAP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">REMAP[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HSELS0" type="logic">
+         <obj_property name="ElementShortName">HSELS0</obj_property>
+         <obj_property name="ObjectShortName">HSELS0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HADDRS0" type="array">
+         <obj_property name="ElementShortName">HADDRS0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HADDRS0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HTRANSS0" type="array">
+         <obj_property name="ElementShortName">HTRANSS0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HTRANSS0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HWRITES0" type="logic">
+         <obj_property name="ElementShortName">HWRITES0</obj_property>
+         <obj_property name="ObjectShortName">HWRITES0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HSIZES0" type="array">
+         <obj_property name="ElementShortName">HSIZES0[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HSIZES0[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HBURSTS0" type="array">
+         <obj_property name="ElementShortName">HBURSTS0[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HBURSTS0[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HPROTS0" type="array">
+         <obj_property name="ElementShortName">HPROTS0[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HPROTS0[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HMASTERS0" type="array">
+         <obj_property name="ElementShortName">HMASTERS0[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HMASTERS0[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HWDATAS0" type="array">
+         <obj_property name="ElementShortName">HWDATAS0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HWDATAS0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HMASTLOCKS0" type="logic">
+         <obj_property name="ElementShortName">HMASTLOCKS0</obj_property>
+         <obj_property name="ObjectShortName">HMASTLOCKS0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HREADYS0" type="logic">
+         <obj_property name="ElementShortName">HREADYS0</obj_property>
+         <obj_property name="ObjectShortName">HREADYS0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HRDATAS0" type="array">
+         <obj_property name="ElementShortName">HRDATAS0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HRDATAS0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HREADYOUTS0" type="logic">
+         <obj_property name="ElementShortName">HREADYOUTS0</obj_property>
+         <obj_property name="ObjectShortName">HREADYOUTS0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HRESPS0" type="array">
+         <obj_property name="ElementShortName">HRESPS0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HRESPS0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HSELM0" type="logic">
+         <obj_property name="ElementShortName">HSELM0</obj_property>
+         <obj_property name="ObjectShortName">HSELM0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HADDRM0" type="array">
+         <obj_property name="ElementShortName">HADDRM0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HADDRM0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HTRANSM0" type="array">
+         <obj_property name="ElementShortName">HTRANSM0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HTRANSM0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HWRITEM0" type="logic">
+         <obj_property name="ElementShortName">HWRITEM0</obj_property>
+         <obj_property name="ObjectShortName">HWRITEM0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HSIZEM0" type="array">
+         <obj_property name="ElementShortName">HSIZEM0[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HSIZEM0[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HBURSTM0" type="array">
+         <obj_property name="ElementShortName">HBURSTM0[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HBURSTM0[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HPROTM0" type="array">
+         <obj_property name="ElementShortName">HPROTM0[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HPROTM0[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HMASTERM0" type="array">
+         <obj_property name="ElementShortName">HMASTERM0[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HMASTERM0[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HWDATAM0" type="array">
+         <obj_property name="ElementShortName">HWDATAM0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HWDATAM0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HMASTLOCKM0" type="logic">
+         <obj_property name="ElementShortName">HMASTLOCKM0</obj_property>
+         <obj_property name="ObjectShortName">HMASTLOCKM0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HREADYMUXM0" type="logic">
+         <obj_property name="ElementShortName">HREADYMUXM0</obj_property>
+         <obj_property name="ObjectShortName">HREADYMUXM0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HRDATAM0" type="array">
+         <obj_property name="ElementShortName">HRDATAM0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HRDATAM0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HREADYOUTM0" type="logic">
+         <obj_property name="ElementShortName">HREADYOUTM0</obj_property>
+         <obj_property name="ObjectShortName">HREADYOUTM0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HRESPM0" type="array">
+         <obj_property name="ElementShortName">HRESPM0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HRESPM0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HSELM1" type="logic">
+         <obj_property name="ElementShortName">HSELM1</obj_property>
+         <obj_property name="ObjectShortName">HSELM1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HADDRM1" type="array">
+         <obj_property name="ElementShortName">HADDRM1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HADDRM1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HTRANSM1" type="array">
+         <obj_property name="ElementShortName">HTRANSM1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HTRANSM1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HWRITEM1" type="logic">
+         <obj_property name="ElementShortName">HWRITEM1</obj_property>
+         <obj_property name="ObjectShortName">HWRITEM1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HSIZEM1" type="array">
+         <obj_property name="ElementShortName">HSIZEM1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HSIZEM1[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HBURSTM1" type="array">
+         <obj_property name="ElementShortName">HBURSTM1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">HBURSTM1[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HPROTM1" type="array">
+         <obj_property name="ElementShortName">HPROTM1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HPROTM1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HMASTERM1" type="array">
+         <obj_property name="ElementShortName">HMASTERM1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HMASTERM1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HWDATAM1" type="array">
+         <obj_property name="ElementShortName">HWDATAM1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HWDATAM1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HMASTLOCKM1" type="logic">
+         <obj_property name="ElementShortName">HMASTLOCKM1</obj_property>
+         <obj_property name="ObjectShortName">HMASTLOCKM1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HREADYMUXM1" type="logic">
+         <obj_property name="ElementShortName">HREADYMUXM1</obj_property>
+         <obj_property name="ObjectShortName">HREADYMUXM1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HRDATAM1" type="array">
+         <obj_property name="ElementShortName">HRDATAM1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HRDATAM1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HREADYOUTM1" type="logic">
+         <obj_property name="ElementShortName">HREADYOUTM1</obj_property>
+         <obj_property name="ObjectShortName">HREADYOUTM1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/HRESPM1" type="array">
+         <obj_property name="ElementShortName">HRESPM1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">HRESPM1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/i_sel0" type="logic">
+         <obj_property name="ElementShortName">i_sel0</obj_property>
+         <obj_property name="ObjectShortName">i_sel0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/i_addr0" type="array">
+         <obj_property name="ElementShortName">i_addr0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_addr0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/M3_tb/u_SOC/u_L2AhbMtx/i_trans0" type="array">
+         <obj_property name="ElementShortName">i_trans0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">i_trans0[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

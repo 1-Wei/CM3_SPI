@@ -1,0 +1,128 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/ila_0/sim/ila_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxInStg
+WARNING: [VRFC 10-3507] macro 'TRN_IDLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:113]
+WARNING: [VRFC 10-3507] macro 'TRN_BUSY' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:114]
+WARNING: [VRFC 10-3507] macro 'TRN_NONSEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:115]
+WARNING: [VRFC 10-3507] macro 'TRN_SEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:116]
+WARNING: [VRFC 10-3507] macro 'BUR_SINGLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:119]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:120]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:121]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:122]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:123]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:124]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:125]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:126]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtx_default_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtx_default_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbArb
+WARNING: [VRFC 10-3507] macro 'TRN_IDLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:78]
+WARNING: [VRFC 10-3507] macro 'TRN_BUSY' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:79]
+WARNING: [VRFC 10-3507] macro 'TRN_NONSEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:80]
+WARNING: [VRFC 10-3507] macro 'TRN_SEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:81]
+WARNING: [VRFC 10-3507] macro 'BUR_SINGLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:84]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:85]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:86]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:87]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:88]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:89]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:90]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:91]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbDecS0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbDecS0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbInStg
+WARNING: [VRFC 10-3507] macro 'TRN_IDLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:113]
+WARNING: [VRFC 10-3507] macro 'TRN_BUSY' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:114]
+WARNING: [VRFC 10-3507] macro 'TRN_NONSEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:115]
+WARNING: [VRFC 10-3507] macro 'TRN_SEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:116]
+WARNING: [VRFC 10-3507] macro 'BUR_SINGLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:119]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:120]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:121]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:122]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:123]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:124]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:125]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:126]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbMtx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbMtx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbMtx_default_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbMtx_default_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbOutStg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbOutStg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SOC_TOP_V2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_ahb_default_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_default_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_ahb_gpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_gpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/sys_ahb/cmsdk_ahb_to_ahb_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_ahb_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/sys_ahb/cmsdk_ahb_to_ahb_sync_error_canc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_ahb_sync_error_canc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/rtl_cortex/cmsdk_ahb_to_apb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_apb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_ahb_to_iop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_iop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_ahb_to_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/led/cmsdk_apb3_eg_slave_interface_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_apb3_eg_slave_interface_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/led/cmsdk_apb3_eg_slave_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_apb3_eg_slave_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/apb/cmsdk_apb_slave_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_apb_slave_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_apb_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_apb_uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_fpga_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_fpga_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_iop_gpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_iop_gpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/rtl_cortex/cortexm3ds_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cortexm3ds_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/button/custom_apb_button.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module custom_apb_button
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/led/custom_apb_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module custom_apb_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/swdio_tri_buf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module swdio_tri_buf
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sim_1/new/M3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module M3_tb

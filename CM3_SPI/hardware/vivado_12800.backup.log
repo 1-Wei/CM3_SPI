@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Feb 23 13:21:18 2023
+# Process ID: 12800
+# Current directory: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10300 D:\WHUT\FPGA\EXERCISE\PYNQ-Z2\ARM_SOC\CortexM3_Eval_V2\CortexM3_Eval.xpr
+# Log file: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/vivado.log
+# Journal file: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/FPGA/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 873.590 ; gain = 253.703
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1875.488 ; gain = 28.043
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1875.488 ; gain = 28.043
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1875.488 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 67 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 44 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 17 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+
+open_run: Time (s): cpu = 00:00:40 ; elapsed = 00:00:26 . Memory (MB): peak = 1997.914 ; gain = 880.262
+open_report: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 2574.082 ; gain = 359.922
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.

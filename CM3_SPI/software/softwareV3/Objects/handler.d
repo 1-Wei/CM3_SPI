@@ -1,0 +1,15 @@
+.\objects\handler.o: Core\handler.c
+.\objects\handler.o: Core\CortexM3.h
+.\objects\handler.o: D:\Learn\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\handler.o: D:\Learn\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\handler.o: Core\core_cm3.h
+.\objects\handler.o: Core\CortexM3.h
+.\objects\handler.o: Core\core_cmInstr.h
+.\objects\handler.o: Core\core_cmFunc.h
+.\objects\handler.o: Core\CortexM3_driver.h
+.\objects\handler.o: .\Peripheral\uart.h
+.\objects\handler.o: D:\Learn\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\handler.o: .\Core\core_cm3.h
+.\objects\handler.o: .\Peripheral\gpio.h
+.\objects\handler.o: D:\Learn\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\handler.o: .\Core\core_cm3.h

@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Feb 24 15:41:01 2023
+# Process ID: 20896
+# Current directory: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15028 D:\WHUT\FPGA\EXERCISE\PYNQ-Z2\ARM_SOC\CortexM3_Eval_V2\CortexM3_Eval.xpr
+# Log file: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/vivado.log
+# Journal file: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/FPGA/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 828.168 ; gain = 202.855
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+[Fri Feb 24 15:43:09 2023] Launched synth_1...
+Run output will be captured here: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/synth_1/runme.log
+[Fri Feb 24 15:43:09 2023] Launched impl_1...
+Run output will be captured here: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/runme.log
+reset_run synth_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+open_hw_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1827.211 ; gain = 764.270
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 24 15:43:55 2023...

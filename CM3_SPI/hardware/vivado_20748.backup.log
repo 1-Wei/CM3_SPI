@@ -1,0 +1,688 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Feb 24 15:58:20 2023
+# Process ID: 20748
+# Current directory: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22512 D:\WHUT\FPGA\EXERCISE\PYNQ-Z2\ARM_SOC\CortexM3_Eval_V2\CortexM3_Eval.xpr
+# Log file: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/vivado.log
+# Journal file: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/FPGA/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 846.234 ; gain = 218.207
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+[Fri Feb 24 15:59:40 2023] Launched synth_1...
+Run output will be captured here: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/synth_1/runme.log
+[Fri Feb 24 15:59:40 2023] Launched impl_1...
+Run output will be captured here: D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 16:37:32
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 16:37:32
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 1920.281 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/1234-tulA.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:19
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:23
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:23
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:26
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:26
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:30
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:30
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+ERROR: [Labtools 27-2215] Slow clock or no clock connected for ILA [hw_ila_1].
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:47
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:51
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:54
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:54
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:03:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:03:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:04:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:04:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:04:04
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:04:04
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:04:08
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:04:08
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:04:11
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:04:11
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:04:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:04:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:04:18
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:04:18
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:04:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:04:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:04:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:04:51
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:05:02
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:05:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:05:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:05:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:05:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:05:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:05:12
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:05:12
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Feb-24 17:05:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Feb-24 17:05:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/FPGA/Vivado/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'M3_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj M3_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/ila_0/sim/ila_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxArbM4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxArbM4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxDecS4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxDecS4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxInStg
+WARNING: [VRFC 10-3507] macro 'TRN_IDLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:113]
+WARNING: [VRFC 10-3507] macro 'TRN_BUSY' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:114]
+WARNING: [VRFC 10-3507] macro 'TRN_NONSEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:115]
+WARNING: [VRFC 10-3507] macro 'TRN_SEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:116]
+WARNING: [VRFC 10-3507] macro 'BUR_SINGLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:119]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:120]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:121]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:122]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:123]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:124]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:125]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxInStg.v:126]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtxOutStgM4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtxOutStgM4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L1AhbMtx/L1AhbMtx_default_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L1AhbMtx_default_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbArb
+WARNING: [VRFC 10-3507] macro 'TRN_IDLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:78]
+WARNING: [VRFC 10-3507] macro 'TRN_BUSY' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:79]
+WARNING: [VRFC 10-3507] macro 'TRN_NONSEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:80]
+WARNING: [VRFC 10-3507] macro 'TRN_SEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:81]
+WARNING: [VRFC 10-3507] macro 'BUR_SINGLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:84]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:85]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:86]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:87]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:88]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:89]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:90]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbArb.v:91]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbDecS0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbDecS0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbInStg
+WARNING: [VRFC 10-3507] macro 'TRN_IDLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:113]
+WARNING: [VRFC 10-3507] macro 'TRN_BUSY' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:114]
+WARNING: [VRFC 10-3507] macro 'TRN_NONSEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:115]
+WARNING: [VRFC 10-3507] macro 'TRN_SEQ' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:116]
+WARNING: [VRFC 10-3507] macro 'BUR_SINGLE' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:119]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:120]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:121]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR4' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:122]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:123]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR8' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:124]
+WARNING: [VRFC 10-3507] macro 'BUR_WRAP16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:125]
+WARNING: [VRFC 10-3507] macro 'BUR_INCR16' redefined [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbInStg.v:126]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbMtx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbMtx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbMtx_default_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbMtx_default_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/L2AhbMtx/L2AhbOutStg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module L2AhbOutStg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SOC_TOP_V2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_ahb_default_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_default_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_ahb_gpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_gpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/sys_ahb/cmsdk_ahb_to_ahb_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_ahb_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/sys_ahb/cmsdk_ahb_to_ahb_sync_error_canc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_ahb_sync_error_canc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/rtl_cortex/cmsdk_ahb_to_apb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_apb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_ahb_to_iop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_iop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_ahb_to_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_ahb_to_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/led/cmsdk_apb3_eg_slave_interface_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_apb3_eg_slave_interface_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/led/cmsdk_apb3_eg_slave_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_apb3_eg_slave_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/apb/cmsdk_apb_slave_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_apb_slave_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_apb_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_apb_uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_fpga_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_fpga_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/peripheral/cmsdk_iop_gpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmsdk_iop_gpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/rtl_cortex/cortexm3ds_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cortexm3ds_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/button/custom_apb_button.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module custom_apb_button
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/imports/led/custom_apb_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module custom_apb_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/swdio_tri_buf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module swdio_tri_buf
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sim_1/new/M3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module M3_tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1936.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/FPGA/Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 9906438ee537497f9296ade98e12215d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot M3_tb_behav xil_defaultlib.M3_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'HMASTERM0' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:524]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'HMASTERM1' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:539]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'HMASTERM2' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:554]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'HMASTERM3' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:569]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'HMASTERM4' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:584]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'HMASTERS0' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:697]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'HMASTERM0' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:712]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'HMASTERM1' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:727]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'HADDR' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:762]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'HADDR' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:932]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'HADDR' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:979]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 12 for port 'PADDR' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:1048]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 12 for port 'paddr' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:1071]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'HADDR' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:1153]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'HRESP' [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/new/SOC_TOP_V2.v:1161]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.IOBUF
+Compiling module xil_defaultlib.swdio_tri_buf
+Compiling module xil_defaultlib.ila_0
+Compiling module xil_defaultlib.cortexm3ds_logic
+Compiling module xil_defaultlib.L1AhbMtxInStg
+Compiling module xil_defaultlib.L1AhbMtx_default_slave
+Compiling module xil_defaultlib.L1AhbMtxDecS0
+Compiling module xil_defaultlib.L1AhbMtxDecS1
+Compiling module xil_defaultlib.L1AhbMtxDecS2
+Compiling module xil_defaultlib.L1AhbMtxDecS3
+Compiling module xil_defaultlib.L1AhbMtxDecS4
+Compiling module xil_defaultlib.L1AhbMtxArbM0
+Compiling module xil_defaultlib.L1AhbMtxOutStgM0
+Compiling module xil_defaultlib.L1AhbMtxArbM1
+Compiling module xil_defaultlib.L1AhbMtxOutStgM1
+Compiling module xil_defaultlib.L1AhbMtxArbM2
+Compiling module xil_defaultlib.L1AhbMtxOutStgM2
+Compiling module xil_defaultlib.L1AhbMtxArbM3
+Compiling module xil_defaultlib.L1AhbMtxOutStgM3
+Compiling module xil_defaultlib.L1AhbMtxArbM4
+Compiling module xil_defaultlib.L1AhbMtxOutStgM4
+Compiling module xil_defaultlib.L1AhbMtx
+Compiling module xil_defaultlib.cmsdk_ahb_to_ahb_sync_error_canc
+Compiling module xil_defaultlib.cmsdk_ahb_to_ahb_sync(MW=2,BURST...
+Compiling module xil_defaultlib.L2AhbInStg
+Compiling module xil_defaultlib.L2AhbMtx_default_slave
+Compiling module xil_defaultlib.L2AhbDecS0
+Compiling module xil_defaultlib.L2AhbArb
+Compiling module xil_defaultlib.L2AhbOutStg
+Compiling module xil_defaultlib.L2AhbMtx
+Compiling module xil_defaultlib.cmsdk_ahb_to_apb(REGISTER_WDATA=...
+Compiling module xil_defaultlib.cmsdk_apb_slave_mux(PORT3_ENABLE...
+Compiling module xil_defaultlib.cmsdk_ahb_to_sram
+Compiling module xil_defaultlib.cmsdk_fpga_sram(AW=14)
+Compiling module xil_defaultlib.cmsdk_apb_uart
+Compiling module xil_defaultlib.cmsdk_apb3_eg_slave_interface_le...
+Compiling module xil_defaultlib.custom_apb_led
+Compiling module xil_defaultlib.cmsdk_apb3_eg_slave_led
+Compiling module xil_defaultlib.custom_apb_button
+Compiling module xil_defaultlib.cmsdk_ahb_default_slave
+Compiling module xil_defaultlib.cmsdk_ahb_to_iop
+Compiling module xil_defaultlib.cmsdk_iop_gpio
+Compiling module xil_defaultlib.cmsdk_ahb_gpio
+Compiling module xil_defaultlib.SOC_TOP_V2(SimPresent=1)
+Compiling module xil_defaultlib.M3_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot M3_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:47 . Memory (MB): peak = 1936.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '46' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "M3_tb_behav -key {Behavioral:sim_1:Functional:M3_tb} -tclbatch {M3_tb.tcl} -view {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sim_1/imports/CortexM3_Eval/M3_tb_1.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sim_1/imports/CortexM3_Eval/M3_tb_1.wcfg
+source M3_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance M3_tb.u_SOC.Global_clk.inst.mmcm_adv_inst 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'M3_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:59 . Memory (MB): peak = 2028.199 ; gain = 98.277
+run 10 us
+run 10 us
+run all
+run: Time (s): cpu = 00:00:21 ; elapsed = 00:02:33 . Memory (MB): peak = 2039.523 ; gain = 8.922
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'Global_clk'
+INFO: [Project 1-454] Reading design checkpoint 'd:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'ILA'
+INFO: [Netlist 29-17] Analyzing 458 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'SOC_TOP_V2' is not ideal for floorplanning, since the cellview 'cortexm3ds_logic' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ILA UUID: 7c6a6fe4-4525-5a57-804f-5689cd836bf4 
+Parsing XDC File [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'Global_clk/inst'
+Finished Parsing XDC File [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'Global_clk/inst'
+Parsing XDC File [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'Global_clk/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2989.414 ; gain = 549.914
+Finished Parsing XDC File [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'Global_clk/inst'
+Parsing XDC File [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ILA/inst'
+Finished Parsing XDC File [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ILA/inst'
+Parsing XDC File [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ILA/inst'
+Finished Parsing XDC File [d:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ILA/inst'
+Parsing XDC File [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/constrs_1/new/SOC1.xdc]
+Finished Parsing XDC File [D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.srcs/constrs_1/new/SOC1.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2990.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 61 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 44 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 17 instances
+
+open_run: Time (s): cpu = 00:00:38 ; elapsed = 00:00:29 . Memory (MB): peak = 3069.371 ; gain = 1002.316
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:37 . Memory (MB): peak = 3246.988 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/1234-tulA.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/WHUT/FPGA/EXERCISE/PYNQ-Z2/ARM_SOC/CortexM3_Eval_V2/CortexM3_Eval.runs/impl_1/SOC_TOP_V2.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ILA"}]]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 24 22:26:37 2023...

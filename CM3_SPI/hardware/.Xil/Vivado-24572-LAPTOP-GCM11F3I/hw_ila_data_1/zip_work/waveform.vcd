@@ -1,0 +1,68 @@
+$date
+        2023-Feb-21 15:49:03
+$end
+$version
+        Vivado v2018.3 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 16 " EXP_IBUF [15:0] $end
+$var reg 1 2 _TRIGGER $end
+$var reg 1 3 _WINDOW $end
+$var reg 1 4 _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111111111001111 "
+02
+13
+04
+$end
+#63
+b1111111111101111 "
+12
+#64
+03
+#127
+02
+#128
+13
+#191
+12
+#192
+03
+#255
+02
+#256
+13
+#319
+12
+#320
+03
+#383
+02
+#384
+13
+#447
+12
+#448
+03
+#511
+02
+#512
+13
+#575
+12
+#576
+03
+#639
+02
+#640
+b1111111111001111 "
+13
+#703
+b1111111111101111 "
+12

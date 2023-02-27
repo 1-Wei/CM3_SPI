@@ -1,0 +1,45 @@
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.3 (64-bit)
+# SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Current time: Tue Feb 21 15:49:05 CST 2023
+# Process ID (PID): 24572
+# User: lu
+# OS: Windows 10
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Tue Feb 21 15:49:05 CST 2023
+java.lang.RuntimeException: Cannot dock to ContainerContainer if its parent is not main container
+	at com.jidesoft.docking.DefaultDockingManager.a(Unknown Source)
+	at com.jidesoft.docking.DefaultDockingManager.a(Unknown Source)
+	at com.jidesoft.docking.DefaultDockingManager.a(Unknown Source)
+	at com.jidesoft.docking.DefaultDockingManager.k(Unknown Source)
+	at com.jidesoft.docking.DefaultDockingManager.n(Unknown Source)
+	at com.jidesoft.docking.DefaultDockingManager.setFrameAvailable(Unknown Source)
+	at ui.views.v.a.i.tg(SourceFile:668)
+	at ui.views.v.a.i.fCK(SourceFile:886)
+	at ui.views.v.a.i.Il(SourceFile:933)
+	at ui.views.V.L.wQ(SourceFile:994)
+	at ui.views.V.L.a(SourceFile:188)
+	at ui.frmwork.b.l.d(SourceFile:41)
+	at ui.frmwork.HTclEventBroker.i(SourceFile:255)
+	at ui.frmwork.HTclEventBroker.cS(SourceFile:336)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
